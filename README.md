@@ -37,6 +37,8 @@ Luyện tập sử dụng HTML và CSS để xây dựng, định dạng bảng:
 
 ## 5. Kết quả đạt được
 
+- chessboard.html là tạo hình một bàn cờ vua.
+- calendar.html là tạo lịch của một tháng.
 - Hiểu và sử dụng được các thẻ HTML tạo bảng.
 - Biết cách bố trí hàng, cột và các ô dữ liệu.
 - Áp dụng CSS để xây dựng giao diện bảng trực quan.
