@@ -1,0 +1,100 @@
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Bảng lịch */
+table {
+  width: 875px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+/* Tiêu đề tháng */
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+/* Hàng tiêu đề tiếng Việt */
+thead tr:first-child th {
+  height: 52px;
+  background-color: orange;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid white;
+}
+
+/* Chủ nhật - màu đỏ */
+thead tr:first-child th:first-child {
+  background-color: orangered;
+}
+
+/* Thứ bảy - màu xanh */
+thead tr:first-child th:last-child {
+  background-color: blue;
+}
+
+/* Hàng tiêu đề tiếng Anh */
+thead tr:nth-child(2) th {
+  height: 54px;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  border: none;
+}
+
+/* Sun - màu đỏ */
+thead tr:nth-child(2) th:first-child {
+  color: orangered;
+}
+
+/* Sat - màu xanh */
+thead tr:nth-child(2) th:last-child {
+  color: blue;
+}
+
+/* Các ô ngày trong tháng */
+tbody td {
+  height: 73px;
+  border: 2px solid #aaa;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* Ngày dương lịch */
+.solar {
+  font-size: 34px;
+  color: black;
+}
+
+/* Ngày âm lịch */
+.lunar {
+  font-size: 15px;
+  color: black;
+  vertical-align: sub;
+}
+
+/* Ngày Chủ nhật màu đỏ */
+tbody td:first-child .solar {
+  color: orangered;
+}
+
+/* Ngày Thứ bảy màu xanh */
+tbody td:last-child .solar {
+  color: blue;
+}
